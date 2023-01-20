@@ -1,0 +1,170 @@
+{
+  "uuid": "7b2b74eac629c68413188be1832920e9",
+  "path": "Offline/RGB_LED_Control",
+  "name": "RGB_LED_Control",
+  "content": "",
+  "created_at": "2023-01-20 15:39:40",
+  "updated_at": "2023-01-20 16:45:48",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0217d27abedb605d52e2ee921f02ae75",
+      "title": "Curcuit",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d2d68b84d0dd469988e81cf6638c02e8": 1,
+        "fd9495e50d5a4ddb9269a439f3f7b2eb": 3,
+        "ce3e437335d748af86781325220863ac": 3,
+        "bb009484ef804a24ac5d18c54b249586": 7,
+        "208e07014efd42d2ab7de7d0bd1b11f7": 3,
+        "7ce007853ff54c6bbe8fcdd5e6f56fb9": 1,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "UF4007",
+          3,
+          "ДИОД UF4007",
+          "D1,D2,D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004719",
+            "BOM_Manufacturer Part": "UF4007",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8510dcee483e46e783281e5489f667f7",
+            "uuid": "208e07014efd42d2ab7de7d0bd1b11f7"
+          }
+        ],
+        [
+          "HEADER 1X4p",
+          1,
+          "HEADER - HEADER-FEMALE-2.54_1X4",
+          "H1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Sparkfun",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e5093c0354e147328ef4813f45d289fb",
+            "uuid": "7ce007853ff54c6bbe8fcdd5e6f56fb9"
+          }
+        ],
+        [
+          "ON/OFF",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY1",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "Pot_Red",
+          1,
+          "WH160-1-104",
+          "PR1",
+          {
+            "BOM_Supplier Part": "C61836",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "JML",
+            "BOM_Manufacturer Part": "Potentiometer WH160-1-104",
+            "puuid": "14351ca6da7e4004bed7579386feb9cb",
+            "uuid": "fd9495e50d5a4ddb9269a439f3f7b2eb"
+          }
+        ],
+        [
+          "Pot_Blue",
+          1,
+          "WH160-1-104",
+          "PR2",
+          {
+            "BOM_Supplier Part": "C61836",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "JML",
+            "BOM_Manufacturer Part": "Potentiometer WH160-1-104",
+            "puuid": "14351ca6da7e4004bed7579386feb9cb",
+            "uuid": "fd9495e50d5a4ddb9269a439f3f7b2eb"
+          }
+        ],
+        [
+          "Pot_Green",
+          1,
+          "WH160-1-104",
+          "PR3",
+          {
+            "BOM_Supplier Part": "C61836",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "JML",
+            "BOM_Manufacturer Part": "Potentiometer WH160-1-104",
+            "puuid": "14351ca6da7e4004bed7579386feb9cb",
+            "uuid": "fd9495e50d5a4ddb9269a439f3f7b2eb"
+          }
+        ],
+        [
+          "IRFZ44N",
+          3,
+          "IRFZ44N",
+          "Q1,Q2,Q3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c8d4f053d2814281bfa6663ec05aa315",
+            "uuid": "ce3e437335d748af86781325220863ac"
+          }
+        ],
+        [
+          "100",
+          7,
+          "R0603",
+          "R1,R2,R3,R4,R5,R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "STM21F103-BluePill",
+          1,
+          "STM32F103-BLUEPILL",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "adab486610b44f16a05dd4cf87c6687d",
+            "uuid": "d2d68b84d0dd469988e81cf6638c02e8"
+          }
+        ]
+      ],
+      "updateTime": 1674222348,
+      "createTime": 1674221840,
+      "histories": [],
+      "created_at": "2023-01-20 16:37:20",
+      "updated_at": "2023-01-20 16:45:48"
+    }
+  ],
+  "sort": [],
+  "title": "RGB_LED_Control",
+  "foldername": "RGB_LED_Control",
+  "schfilename": "RGB_LED_Control.json",
+  "schfilemtime": 1674222348953
+}
